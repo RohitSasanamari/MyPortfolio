@@ -1,15 +1,18 @@
 <?php  
 $name = $_POST['name'];
 $email = $_POST['email'];
-$_message = $_POST['message'];
+$message = $_POST['message'];
 
+$email_from = "PersonalPortfolio";
 $to = "rohit7406524@gmail.com";
 $subject = "Mail From Portfolio Site";
-$txt = "Name = ".$name."\r\n Email = ".$email."\r\n Message = ".$message;
+$email_body = "User Name : $name.\n".
+                "Email : $email.\n".
+                    "Message : $message.\n";
 
-$headers = ".$name";
-if($email!=NULL){
-    mail($to,$subject,$txt,$headers);
-    header("Location: Thank You");
+$headers = "From: $email_form \r\n";
+$headers .= "Reply-to: $email \r\n";
+mail($to,$subject,$email_body,$headers);
+header("Location: index.html");
 }
 ?>
