@@ -581,10 +581,6 @@ section .title::after{
     width: 100%;
 }
 
-.contact .right form .name{
-    margin-right: 10px;
-}
-
 .contact .right form .field input,
 .contact .right form .textarea textarea{
     height: 100%;
