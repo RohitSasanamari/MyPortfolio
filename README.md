@@ -13,7 +13,7 @@
 <!-- Any image aligned to the right. Beware the width -->
 <img width="50%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 
-- 👨🏽‍💻 A Quick, Passionate and Non-Tiresome Learner ;
+- 👨🏽‍💻 A Quick, Passionate and Non-Tiresome Learner;
 - 🌱 Always having a urge to discover new learnings;
 - 💬 Ask me about anything, I am happy to help;
 - ⚡️ Fun-Fact: Smart-Work rather than Hard-Work;
